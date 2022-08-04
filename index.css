@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.hero .header{
+margin: 0;
+padding: 0;
+display: flex;
+justify-content: space-between;
+min-height: 50px;
+align-items: center;
+}
+.hero{
+    background-color: antiquewhite;
+}
+.hero .container{
+    display: flex;
+    justify-content: space-around;
+    height: 300px;
+}
+
+.hero .img{
+    background-color: grey;
+    height: 140px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}   
+
+.left{
+justify-content: center;
+align-self: center;
+}
+.right{
+align-self: center;
+}
+.information{
+
+}
+.quotes{
+
+}
+.footer{
+
+}
