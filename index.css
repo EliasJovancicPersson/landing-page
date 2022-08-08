@@ -1,45 +1,119 @@
 body{
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.header .logo{
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
+.header a{
+    margin: 8px;
+}
+
 .hero .header{
-margin: 0;
-padding: 0;
-display: flex;
-justify-content: space-between;
-min-height: 50px;
-align-items: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    min-height: 50px;
+    align-items: center;
 }
 .hero{
-    background-color: antiquewhite;
+    background-color: #1f2937;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+.hero p,.header a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
 }
 .hero .container{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     height: 300px;
+    align-items: center;
+    margin-left: 40px;
+    margin-right: 40px;
 }
 
 .hero .img{
     background-color: grey;
-    height: 140px;
-    width: 350px;
+    height: 180px;
+    width: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
 }   
 
 .left{
-justify-content: center;
-align-self: center;
+    justify-content: center;
+    align-self: center;
 }
+.left h1{
+    margin: 0;
+    padding: 0;
+}
+.left p{
+    margin: 0;
+    padding: 0  ;
+}
+.left button{
+    background-color: rgb(0, 94, 255);
+    width: 130px;
+    height: 30px;
+    border-radius: 8px;
+    border-width: 0;
+    color: #f9faf8;
+    margin-top: 10px;
+}
+
 .right{
 align-self: center;
 }
+
 .information{
-
+    margin: 0;
+    padding:0;
 }
-.quotes{
 
+.information h2{
+    text-align: center;
 }
-.footer{
 
+.information .container{
+    display: flex;
+    justify-content: center;
+}
+.information .img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid rgb(0, 94, 255) 2px;
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;    
+}
+
+.information p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: rgb(87, 87, 87);
+    margin-top: 5px;
+}
+
+.information .img-container{
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin: 20px;
 }
